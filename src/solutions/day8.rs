@@ -4,7 +4,7 @@ use std::collections::{HashMap, HashSet};
 use itertools::Itertools;
 
 pub fn run_part1() {
-    let file_name = "./input/y2024/day3/part1_input.txt";
+    let file_name = "./input/y2024/day8/part1_input.txt";
     // first attempt too low: 223
     let file = File::open(file_name).expect("Unable to open file");
     let reader = BufReader::new(file);
@@ -64,7 +64,7 @@ fn is_valid(p: (i32, i32), max_x: i32, max_y: i32) -> bool {
 }
 
 pub fn run_part2() {
-    let file_name = "./input/y2024/day3/part1_input.txt";
+    let file_name = "./input/y2024/day8/part1_input.txt";
     let file = File::open(file_name).expect("Unable to open file");
     let reader = BufReader::new(file);
 

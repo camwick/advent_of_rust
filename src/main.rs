@@ -4,6 +4,7 @@ use std::io;
 
 use solutions::day1;
 use solutions::day2;
+use solutions::day3;
 use solutions::day7;
 use solutions::day8;
 
@@ -22,6 +23,9 @@ fn main() {
     if day_number == 2 {
         day2::run_part1();
         day2::run_part2();
+    }
+    if day_number == 3 {
+        day3::run_part1();
     }
     else if day_number == 7 {
         day7::run_part1();
