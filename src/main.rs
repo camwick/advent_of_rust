@@ -21,7 +21,7 @@ fn main() {
     }
     if day_number == 2 {
         day2::run_part1();
-    }
+        day2::run_part2();
     }
     else if day_number == 7 {
         day7::run_part1();
